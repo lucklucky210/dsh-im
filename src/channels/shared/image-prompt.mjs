@@ -4,7 +4,7 @@ const DEFAULT_MAX_IMAGE_BYTES = 5 * 1024 * 1024;
 const DEFAULT_MAX_IMAGES = 20;
 const DEFAULT_MAX_TOTAL_IMAGE_BYTES = 20 * 1024 * 1024;
 
-export const DEFAULT_IMAGE_PROMPT = '请分析这张图片。';
+export const DEFAULT_IMAGE_PROMPT = '（图片消息：用户未附文字说明）';
 
 /**
  * Model-facing guidance appended when the Host refuses image input for the
